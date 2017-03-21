@@ -3,6 +3,7 @@
     <img data-ng-hide="vm.showEdit" ng-src={{vm.item.photoUrl}} alt={{vm.item.name}} class="showPhoto">
     <p data-ng-hide="vm.showEdit"><span class="showTitle">{{vm.item.name}}</span><br><span style="font-weight: bold">{{vm.item.type}}</span> worth <img class="showRupeeLogo" src="http://pre10.deviantart.net/d31d/th/pre/f/2016/081/3/7/rupee_smash_bros_series_icon_by_mrthatkidalex24-d9w2e1n.png" alt="Rupee"> {{vm.item.rupees}}</p>
     <form data-ng-show="vm.showEdit" ng-submit="vm.update()">
+      <br>
       <label>Item Name:</label>
       <br>
       <input type="text" ng-model="vm.item.name" placeholder="Name">
@@ -18,8 +19,7 @@
       <label>Item Value:</label>
       <br>
       <input type="text" ng-model="vm.item.rupees" placeholder="Rupee Value">
-      <br>
-      <br>
+      <br><br>
       <span><button type="submit" name="button">Update Item</button><button data-ng-click="vm.destroy()">Destroy Item</button></span>
     </form>
     <button data-ng-click="vm.showEdit = !vm.showEdit" type="button" name="button">Edit</button>
