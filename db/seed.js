@@ -1,5 +1,5 @@
 const mongoose = require('./connection');
-const seedData = require('seedData');
+const seedData = require('./seedData');
 
 var Item = mongoose.model("Item")
 

@@ -43,7 +43,7 @@ angular
     })
   }
 
-  function IndexFactoryFunction($resource){
+  function ItemFactoryFunction($resource){
     return $resource("/api/items/:name", {}, {
       update: { method: "PUT" }
     })
