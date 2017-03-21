@@ -1,10 +1,20 @@
+<img ng-src={{vm.item.photoUrl}}.png alt={{vm.item.name}}>
 <h2>{{vm.item.name}}</h2>
+<p><span style="font-weight: bold">{{vm.item.type}}</span> worth <img class="rupeeLogo" src="http://pre10.deviantart.net/d31d/th/pre/f/2016/081/3/7/rupee_smash_bros_series_icon_by_mrthatkidalex24-d9w2e1n.png" alt="Rupee"> {{vm.item.rupees}}</p>
 
-<form ng-submit="vm.update()">
+<button data-ng-click="vm.showEdit = !vm.showEdit" type="button" name="button">Edit</button>
+
+<form data-ng-show="vm.showEdit" ng-submit="vm.update()">
   <input type="text" ng-model="vm.item.name" placeholder="Name">
+  <br>
   <input type="text" ng-model="vm.item.type" placeholder="Type">
+  <br>
   <input type="text" ng-model="vm.item.photoUrl" placeholder="Photo Url">
+  <br>
   <input type="text" ng-model="vm.item.rupees" placeholder="Rupee Value">
+  <br>
+  <br>
   <button type="submit" name="button">Update Item</button>
+  <br>
+  <button data-ng-click="vm.destroy()">Throw That Shit Away</button>
 </form>
-<button data-ng-click="vm.destroy()">Throw That Shit Away</button>
