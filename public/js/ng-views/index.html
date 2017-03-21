@@ -4,7 +4,9 @@
   <a data-ui-sref="show({ name: item.name })"><p>{{item.name}}</p></a>
 </div>
 
-<form ng-submit="vm.create()">
+<button data-ng-click="vm.showNew = !vm.showNew" type="button" name="button">New Item</button>
+
+<form data-ng-show="vm.showNew" ng-submit="vm.create()">
   <input type="text" ng-model="vm.newItem.name" placeholder="Name">
   <br>
   <input type="text" ng-model="vm.newItem.type" placeholder="Type">
