@@ -1,0 +1,18 @@
+html {
+  padding: 0;
+}
+
+nav {
+  padding: 10px 10px 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(62,117,55,1);
+  margin-top: -10px;
+  margin-left: -10px;
+  width: calc(100vw + 10px);
+}
+
+.homeLink {
+  width: 50px;
+}
