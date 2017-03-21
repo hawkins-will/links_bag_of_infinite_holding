@@ -104,3 +104,10 @@ header {
 .sound {
   cursor: pointer;
 }
+
+.welcomeBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
