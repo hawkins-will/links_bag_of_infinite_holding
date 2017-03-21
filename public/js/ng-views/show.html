@@ -8,10 +8,6 @@
       <br>
       <input type="text" ng-model="vm.item.name" placeholder="Name">
       <br>
-      <label>Item Type:</label>
-      <br>
-      <input type="text" ng-model="vm.item.type" placeholder="Type">
-      <br>
       <label>Item Photo URL:</label>
       <br>
       <input type="text" ng-model="vm.item.photoUrl" placeholder="Photo Url">
@@ -19,6 +15,17 @@
       <label>Item Value:</label>
       <br>
       <input type="text" ng-model="vm.item.rupees" placeholder="Rupee Value">
+      <br>
+      <label>Item Type:</label>
+      <br>
+      <select ng-model="vm.item.type" placeholder="Type">
+        <option value="Weapon">Weapon</option>
+        <option value="Bow">Bow</option>
+        <option value="Shield">Shield</option>
+        <option value="Armor">Armor</option>
+        <option value="Materials">Materials</option>
+        <option value="Food">Food</option>
+      </select>
       <br><br>
       <span><button type="submit" name="button">Update Item</button><button data-ng-click="vm.destroy()">Destroy Item</button></span>
     </form>

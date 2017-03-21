@@ -3,7 +3,7 @@
   <div class="indexFlex">
     <div data-ng-repeat="item in vm.items">
       <div class="indexBox">
-        <a data-ui-sref="show({ name: item.name })"><img src="{{item.photoUrl}}.png" alt="{{item.name}} Image" class="indexPhoto"></a>
+        <a data-ui-sref="show({ name: item.name })"><img src="{{item.photoUrl}}" alt="{{item.name}} Image" class="indexPhoto"></a>
         <p>{{item.name}}<br><img class="rupeeLogo" src="http://pre10.deviantart.net/d31d/th/pre/f/2016/081/3/7/rupee_smash_bros_series_icon_by_mrthatkidalex24-d9w2e1n.png" alt="Rupee"> {{item.rupees}}</p>
       </div>
     </div>
@@ -11,11 +11,18 @@
       <form ng-submit="vm.create()">
         <input type="text" ng-model="vm.newItem.name" placeholder="Name">
         <br>
-        <input type="text" ng-model="vm.newItem.type" placeholder="Type">
-        <br>
         <input type="text" ng-model="vm.newItem.photoUrl" placeholder="Photo Url">
         <br>
         <input type="text" ng-model="vm.newItem.rupees" placeholder="Rupee Value">
+        <br>
+        <select ng-model="vm.newItem.type" placeholder="Type">
+          <option value="Weapon">Weapon</option>
+          <option value="Bow">Bow</option>
+          <option value="Shield">Shield</option>
+          <option value="Armor">Armor</option>
+          <option value="Materials">Materials</option>
+          <option value="Food">Food</option>
+        </select>
         <br>
         <button type="submit" name="button">Create Item</button>
       </form>
