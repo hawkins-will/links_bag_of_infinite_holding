@@ -11,7 +11,7 @@ app.use("/assets", express.static("public"))
 app.use(parser.json({extended: true}))
 
 app.get("/", function(req, res){
-  res.render("welcome")
+  res.render("layout")
 })
 
 app.listen(app.get("port"), function(){
