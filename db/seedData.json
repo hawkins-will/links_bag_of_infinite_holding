@@ -2,78 +2,78 @@
   {
     "name": "Farming Hoe",
     "type": "Weapon",
-    "photoUrl": "http://imgur.com/BvfoKYM",
+    "photoUrl": "http://imgur.com/BvfoKYM.png",
     "rupees": "10"
   },
   {
     "name": "Master Sword",
     "type": "Weapon",
-    "photoUrl": "http://imgur.com/aTdXMe7",
+    "photoUrl": "http://imgur.com/aTdXMe7.png",
     "rupees": "1000"
   },
   {
     "name": "Wooden Bow",
     "type": "Bow",
-    "photoUrl": "http://imgur.com/CtDHbXj",
+    "photoUrl": "http://imgur.com/CtDHbXj.png",
     "rupees": "30"
   },
   {
     "name": "Steel Lizal Bow",
     "type": "Bow",
-    "photoUrl": "http://imgur.com/mWMQZRy",
+    "photoUrl": "http://imgur.com/mWMQZRy.png",
     "rupees": "60"
   },
   {
     "name": "Boko Shield",
     "type": "Shield",
-    "photoUrl": "http://imgur.com/rVW5QhG",
+    "photoUrl": "http://imgur.com/rVW5QhG.png",
     "rupees": "5"
   },
   {
     "name": "Daybreaker",
     "type": "Shield",
-    "photoUrl": "http://imgur.com/8C1YbZH",
+    "photoUrl": "http://imgur.com/8C1YbZH.png",
     "rupees": "100"
   },
   {
     "name": "Bokoblin Mask",
     "type": "Armor",
-    "photoUrl": "http://imgur.com/F3Kw5cl",
+    "photoUrl": "http://imgur.com/F3Kw5cl.png",
     "rupees": "1"
   },
   {
     "name": "Stealth Chest Gaurd",
     "type": "Armor",
-    "photoUrl": "http://imgur.com/1wLtNNy",
+    "photoUrl": "http://imgur.com/1wLtNNy.png",
     "rupees": "75"
   },
   {
     "name": "Flamebreaker Boots",
     "type": "Armor",
-    "photoUrl": "http://imgur.com/ALII9hH",
+    "photoUrl": "http://imgur.com/ALII9hH.png",
     "rupees": "69"
   },{
     "name": "Hylian Shroom",
     "type": "Materials",
-    "photoUrl": "http://imgur.com/fQt6Eze",
+    "photoUrl": "http://imgur.com/fQt6Eze.png",
     "rupees": "1"
   },
   {
     "name": "Mighty Bananas",
     "type": "Materials",
-    "photoUrl": "http://imgur.com/3eVtxAi",
+    "photoUrl": "http://imgur.com/3eVtxAi.png",
     "rupees": "25"
   },
   {
     "name": "Dubious Food",
     "type": "Food",
-    "photoUrl": "http://imgur.com/AIkoD8k",
+    "photoUrl": "http://imgur.com/AIkoD8k.png",
     "rupees": "0"
   },
   {
     "name": "Fruitcake",
     "type": "Food",
-    "photoUrl": "http://imgur.com/jC3byXv",
+    "photoUrl": "http://imgur.com/jC3byXv.png",
     "rupees": "10"
   }
 ]
