@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Farming Hoe",
+    "type": "Weapon",
+    "photoUrl": "http://imgur.com/BvfoKYM",
+    "rupees": "10"
+  },
+  {
+    "name": "Master Sword",
+    "type": "Weapon",
+    "photoUrl": "http://imgur.com/aTdXMe7",
+    "rupees": "1000"
+  },
+  {
+    "name": "Wooden Bow",
+    "type": "Bow",
+    "photoUrl": "http://imgur.com/CtDHbXj",
+    "rupees": "30"
+  },
+  {
+    "name": "Steel Lizal Bow",
+    "type": "Bow",
+    "photoUrl": "http://imgur.com/mWMQZRy",
+    "rupees": "60"
+  },
+  {
+    "name": "Boko Shield",
+    "type": "Shield",
+    "photoUrl": "http://imgur.com/rVW5QhG",
+    "rupees": "5"
+  },
+  {
+    "name": "Daybreaker",
+    "type": "Shield",
+    "photoUrl": "http://imgur.com/8C1YbZH",
+    "rupees": "100"
+  },
+  {
+    "name": "Bokoblin Mask",
+    "type": "Armor",
+    "photoUrl": "http://imgur.com/F3Kw5cl",
+    "rupees": "1"
+  },
+  {
+    "name": "Stealth Chest Gaurd",
+    "type": "Armor",
+    "photoUrl": "http://imgur.com/1wLtNNy",
+    "rupees": "75"
+  },
+  {
+    "name": "Flamebreaker Boots",
+    "type": "Armor",
+    "photoUrl": "http://imgur.com/ALII9hH",
+    "rupees": "69"
+  },{
+    "name": "Hylian Shroom",
+    "type": "Materials",
+    "photoUrl": "http://imgur.com/fQt6Eze",
+    "rupees": "1"
+  },
+  {
+    "name": "Mighty Bananas",
+    "type": "Materials",
+    "photoUrl": "http://imgur.com/3eVtxAi",
+    "rupees": "25"
+  },
+  {
+    "name": "Dubious Food",
+    "type": "Food",
+    "photoUrl": "http://imgur.com/AIkoD8k",
+    "rupees": "0"
+  },
+  {
+    "name": "Fruitcake",
+    "type": "Food",
+    "photoUrl": "http://imgur.com/jC3byXv",
+    "rupees": "10"
+  }
+]
