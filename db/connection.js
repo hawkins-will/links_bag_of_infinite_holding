@@ -9,6 +9,6 @@ const ItemSchema = new mongoose.Schema(
 )
 
 mongoose.model("Item", ItemSchema)
-mongoose.connect(process.env.MONGOLAB_URL || "mongodb://localhost/linkbag")
+
 
 module.exports = mongoose
