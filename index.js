@@ -2,7 +2,7 @@ const express = require("express")
 const parser = require('body-parser')
 const hbs = require("express-handlebars")
 const mongoose = require('./db/connection')
-mongoose.connect(process.env.MONGOLAB_URL || "mongodb://localhost/linkbag")
+mongoose.connect(process.env.MONGODB_URI || process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || "mongodb://localhost/linkbag")
 
 const app = express()
 
